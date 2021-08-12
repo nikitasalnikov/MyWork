@@ -1,0 +1,57 @@
+@font-face {
+    font-family: 'MB';
+    src: url('../fonts/Montserrat/Montserrat-Black.ttf');
+    
+}
+@font-face{
+    font-family: 'MBI';
+    src: url('../fonts/Montserrat/Montserrat-BoldItalic.ttf');
+    
+}
+@font-face {
+    font-family: 'MR';
+    src: url('../fonts/Montserrat/Montserrat-Regular.ttf');
+}
+@font-face {
+    font-family: 'M-B';
+    src: url('../fonts/Montserrat/Montserrat-Bold.ttf');
+    
+}
+@font-face {
+    font-family: 'MSB';
+    src: url('../fonts/Montserrat/Montserrat-SemiBold.ttf');
+    
+}
+@font-face {
+    font-family: 'FA';
+    src: url('../fonts/fontAwesome/fa-brands-400.woff2');
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'FA';
+    src: url('../fonts/fontAwesome/fa-duotone-900.woff2');
+    font-weight: 900;
+}
+
+@font-face {
+    font-family: 'FA';
+    src: url('../fonts/fontAwesome/fa-light-300.woff2');
+    font-weight: 300;
+}
+@font-face {
+    font-family: 'FA';
+    src: url('../fonts/fontAwesome/fa-regular-400.woff2');
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'FA';
+    src: url('../fonts/fontAwesome/fa-solid-900.woff2');
+    font-weight: 900;
+}
+
+
+.fa{
+    display: inline-block;
+    font-family: 'FA';
+    font-style:normal;
+}

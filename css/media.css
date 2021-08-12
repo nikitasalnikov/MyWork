@@ -1,0 +1,106 @@
+/*- запрос на темную тему-*/
+@media (prefers-color-scheme: dark){  
+    :root{
+        --primary-background:#151437;
+        --primary-text-color:#FFFFFF;
+    }
+    body{
+        background: var(--primary-background);
+    }
+    .header__logo::before{
+        content: url(../images/logo__dark.png);
+    }
+    .carousel-indicators [data-bs-target]{
+        
+        background: #FFFFFF;
+    }
+    .header__toggler{
+        color: var(--primary-text-color);
+    }
+    .main__about-text{
+        color: var(--primary-text-color);
+        background: #7177F1;
+    }
+    .main__about-content{
+        background: var(--primary-background);
+    }
+   
+    .main__about-description{
+        color: var(--primary-text-color);
+    }
+    .accordion-button.collapsed{
+        background: var(--primary-background) !important;
+    }
+    .main__works-link, .main__works-content{
+        background: var(--primary-background);
+    }
+    .main__works-link.active{
+        color: var(--primary-background);
+    }
+    .main__works-description{
+        color: var(--primary-text-color);
+    }
+    .footer__link,
+.footer__contact{
+    color: var(--primary-text-color);
+}
+}
+
+@media (max-width:1024px) {
+    .main__works-content{
+        margin-top: 15px;
+    }
+}
+@media (max-width:992px) {
+    .header__content-items{
+        flex-wrap: wrap;
+        justify-content: center !important;
+    }
+    .header__link, .header__button{
+        margin-right: 0;
+        line-height: 15px;
+    }
+    .main__about{
+        margin-top: 80px;
+    }
+    .main__about-content{
+        margin-top: 15px;
+    }
+    .main__about-text{
+        left: 190px;
+        top: 0;
+    }
+    .accordion{
+        margin-bottom: 20px;
+    }
+    .shape_2{
+        top: 0;
+        width: 100%;
+    }
+}
+@media (max-width: 560px){
+    .rectangle{
+        display: none;
+    }
+    .header__content-items{
+        margin-left: 0;
+    }
+    .main__about-text{
+        left: 70px;
+        top: -35px;
+    }
+    .footer__contact:first-child{
+        margin-bottom: 15px;
+    }
+    
+}
+@media (max-width: 375px){
+    .header__content-skills{
+        
+       flex-direction: column ;
+       align-items: center;
+    }
+    .main__abot-btn{
+        margin: auto;
+    }
+}
